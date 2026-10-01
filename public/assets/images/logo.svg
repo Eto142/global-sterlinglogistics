@@ -1,0 +1,36 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 435 90" width="435" height="90" role="img" aria-label="global-sterlinglogistics">
+  <defs>
+    <linearGradient id="lgG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbb415"/>
+      <stop offset="100%" stop-color="#d97b00"/>
+    </linearGradient>
+    <linearGradient id="lgW" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a58ca"/>
+      <stop offset="100%" stop-color="#011627"/>
+    </linearGradient>
+    <linearGradient id="lgF" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06284f"/>
+      <stop offset="100%" stop-color="#093c7a"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(5,11)">
+    <path d="M6,44 L14,34 L58,31 C72,31 84,37 88,44 C84,51 72,53 58,53 L14,54 Z" fill="url(#lgF)"/>
+    <path d="M50,34 L16,10 L22,13 L54,38 Z" fill="url(#lgW)"/>
+    <path d="M50,50 L16,74 L22,71 L54,46 Z" fill="#0d6efd" opacity=".40"/>
+    <path d="M11,36 L6,21 L17,34 Z" fill="url(#lgW)"/>
+    <path d="M9,52 L2,60 L13,57 Z" fill="#0d6efd"/>
+    <rect x="30" y="50" width="20" height="7" rx="3.5" fill="#07160a"/>
+    <ellipse cx="31" cy="53.5" rx="3" ry="3.5" fill="#0a58ca" opacity=".55"/>
+    <rect x="30" y="51.5" width="20" height="1.8" rx=".9" fill="#f4a306" opacity=".50"/>
+    <rect x="13" y="41" width="72" height="3.5" rx="1.75" fill="url(#lgG)"/>
+    <path d="M62,34 Q73,31 80,40 L76,43 Q67,37 61,39 Z" fill="#f4a306" opacity=".28"/>
+    <line x1="3"  y1="42" x2="13" y2="42" stroke="#f4a306" stroke-width="1.8" stroke-linecap="round" opacity=".55"/>
+    <line x1="1"  y1="46" x2="12" y2="46" stroke="#f4a306" stroke-width="1.5" stroke-linecap="round" opacity=".35"/>
+    <line x1="4"  y1="50" x2="13" y2="50" stroke="#f4a306" stroke-width="1.2" stroke-linecap="round" opacity=".20"/>
+  </g>
+  <text y="54" font-family="'Arial Black','Arial',sans-serif" font-weight="900" font-size="29" letter-spacing="-.4">
+    <tspan x="110" fill="#06284f">fast</tspan><tspan fill="#f4a306">elite</tspan><tspan fill="#06284f">sparcel</tspan>
+  </text>
+  <rect x="110" y="58" width="314" height="2" rx="1" fill="#f4a306" opacity=".42"/>
+  <text x="110" y="73" font-family="'Arial',sans-serif" font-size="9" font-weight="600" fill="#64748B" letter-spacing="2.4">WORLDWIDE SHIPPING SERVICES</text>
+</svg>
