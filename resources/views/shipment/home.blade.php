@@ -7,7 +7,7 @@
     <title>Track Your Shipment | global-sterlinglogistics Company Limited</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset('assets/images/logo.png') }}" sizes="32x32">
+    <link rel="icon" href="{{ asset('logo.png') }}" sizes="32x32">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1176,7 +1176,7 @@
 <div id="shipment-preloader" class="shipment-preloader" aria-live="polite">
     <div class="preloader-card">
         <div class="preloader-logo">
-            <img src="{{ asset('assets/images/logo.png') }}" alt="global-sterlinglogistics">
+            <img src="{{ asset('logo.png') }}" alt="global-sterlinglogistics">
         </div>
         <div class="preloader-progress"><span id="shipment-preloader-fill"></span></div>
         <div class="preloader-dots"><i></i><i></i><i></i></div>
