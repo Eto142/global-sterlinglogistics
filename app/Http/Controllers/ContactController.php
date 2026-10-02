@@ -51,6 +51,15 @@ class ContactController extends Controller
 
         return back()->with('success', 'Your message has been sent successfully.');
     }
+
+    public function subscribe(Request $request)
+    {
+        $request->validate([
+            'email' => 'required|email|max:255',
+        ]);
+
+        return back()->with('success', 'Thank you for subscribing to our newsletter.');
+    }
 }
 
 

@@ -97,3 +97,6 @@ Route::delete('/shipment/history/{history}', [ShipmentHistoryController::class, 
 
 Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
 
+// newsletter subscription
+Route::post('/newsletter/subscribe', [ContactController::class, 'subscribe'])->name('newsletter.subscribe');
+
