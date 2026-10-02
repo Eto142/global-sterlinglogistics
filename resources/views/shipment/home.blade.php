@@ -1193,7 +1193,7 @@
     <div class="container">
         <div class="track-topbar-inner">
             <a href="{{ url('/') }}" class="track-logo" aria-label="global-sterlinglogistics Home">
-                <img src="{{ asset('wp-content/uploads/2022/04/Screenshot_20231009_092214.png') }}"
+                <img src="{{ asset('logo.png') }}"
                      alt="global-sterlinglogistics Company Limited">
             </a>
             <div class="topbar-contact">
