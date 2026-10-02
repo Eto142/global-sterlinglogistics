@@ -20,26 +20,26 @@ Route::get('/', function () {
     return view('home.homepage', [
         'whatsappNumber' => $whatsappNumber,
     ]);
-});
+})->name('home');
 
 Route::get('/services', function () {
     return view('home.services');
-});
+})->name('services');
 
 Route::get('/track-now', [ShipmentController::class, 'trackForm'])->name('track.form');
 Route::post('/track-now', [ShipmentController::class, 'track'])->name('track.submit');
 
 Route::get('/contact', function () {
     return view('home.contact');
-});
+})->name('contact');
 
 Route::get('/team', function () {
     return view('home.team');
-});
+})->name('team');
 
 Route::get('/about', function () {
     return view('home.about');
-});
+})->name('about');
 
 
 
